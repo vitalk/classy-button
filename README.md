@@ -16,7 +16,7 @@ Buttons have a few required constraints for proper functionality,
 accessibility, and styling:
 
 - Whenever possible, use `button` over `a`.
-- Never set `tabindex` on buttons - let the browser automaticaly set that.
+- Never set `tabindex` on buttons - let the browser automatically set that.
 
 ```html
 <button class="button">Button</button>
