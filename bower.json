@@ -1,6 +1,6 @@
 {
   "name": "classy-button",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "authors": [
     "Vital Kudzelka <vital.kudzelka@gmail.com>"
   ],
@@ -13,6 +13,6 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "classy-defaults": "~0.2.0"
+    "classy-defaults": "~0.2.2"
   }
 }
