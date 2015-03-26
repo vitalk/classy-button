@@ -26,6 +26,8 @@ accessibility, and styling:
 Variable | Description
 ---|---
 `@classy-button-namespace` | The namespace uses for classy button (`button` by default).
+`@classy-button-padding` | The vertical padding for buttons; the left and right values are doubled (`.6em` by default).
+`@classy-button-padding-mini` | The vertical padding for mini buttons (a half of `@classy-button-padding` by default).
 
 ## License
 
