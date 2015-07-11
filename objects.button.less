@@ -5,7 +5,7 @@
 // :active - When the button is pressed.
 // :focus - When the button is focused.
 // :disabled - Disabled state.
-// .disabled - Same as above.
+// .is-disabled - Same as above.
 //
 // Styleguide 2.1.
 
@@ -39,8 +39,8 @@
         text-decoration: none; // 6
     }
 
-    &.disabled,
-    &[disabled] { // 8
+    &[disabled],
+    &.is-disabled { // 8
         cursor: not-allowed !important;
         opacity: .8;
         pointer-events: none;
