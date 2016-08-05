@@ -5,7 +5,7 @@
 // :active - When the button is pressed.
 // :focus - When the button is focused.
 // :disabled - Disabled state.
-// .is-disabled - Same as above.
+// .button_disabled - Same as above.
 //
 // Styleguide 2.1.
 
@@ -40,7 +40,7 @@
     }
 
     &[disabled],
-    &.is-disabled { // 8
+    &_disabled { // 8
         cursor: not-allowed !important;
         opacity: .8;
         pointer-events: none;
@@ -49,28 +49,29 @@
 
 // Proportionally increase or decrease button size.
 //
-// .button--mini - A mini button.
-// .button--xl - An extra large button.
+// .button_mini - A mini button.
+// .button_xl - An extra large button.
 //
 // Styleguide 2.2.
-.@{classy-button-namespace} {
-    // 1. No vertical padding
-    // 2. Enough size to easy to touch
-    &--mini {
-        padding: @classy-button-padding-mini (2 * @classy-button-padding-mini); // 1
-        min-width: 3em; // 2
-    }
 
-    // 1. Proportionally increase size
-    &--xl { font-size: 1.3em; } // 1
+// 1. No vertical padding
+// 2. Enough size to easy to touch
+.@{classy-button-namespace}_mini {
+    padding: @classy-button-padding-mini (2 * @classy-button-padding-mini); // 1
+    min-width: 3em; // 2
+}
+
+// 1. Proportionally increase size
+.@{classy-button-namespace}_xl {
+    font-size: 1.3em; // 1
 }
 
 // Full-width button.
 //
-// .button--block - Button which takes up the entire width of its container.
+// .button_block - Button which takes up the entire width of its container.
 //
 // Styleguide 2.3.
-.@{classy-button-namespace}--block {
+.@{classy-button-namespace}_block {
     display: block;
     width: 100%;
 }
