@@ -1,8 +1,8 @@
 {
   "name": "classy-button",
-  "version": "0.5.1",
+  "version": "0.6.0",
   "description": "A standart, but classy, button",
-  "main": "objects.button.less",
+  "main": "button.less",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
